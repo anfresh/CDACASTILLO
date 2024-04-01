@@ -577,18 +577,22 @@ footer  p{
 
 
 
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 600px) and (max-width:1200px){
+    body{
+      
+    }
     #sc1{
-   width: 101%;
-   height: 342px;
+    width: 101%;
+    height: 342px;
    
     }
     menu{
+        width: 101%;
+       margin-bottom: 6em;
+       position: absolute;
+       top: 23em;
+       right: px;
        
-        width: 100%;
-        position: absolute;
-        bottom: 19em;
     }
     menu ul{
         position: relative;
@@ -626,6 +630,9 @@ footer  p{
         
         width: 200%;
     }
+    #sc2 video{
+        width: 30em;
+    }
 
     #sc2 p{
         text-align: center;
@@ -643,15 +650,18 @@ footer  p{
         background-repeat: space 10px;
        columns: 1;
     
-        width: 200%;
-        height: 110em; 
+        width: 101%;
+        height: 100em; 
     }
     .lol{
         margin-top: 5em;
     }
+
+
+
     .contenedor{
-        margin-left: 26em;
-        width: 55.5vmin;
+        margin-left: 9em;
+        width: 54.5vmin;
         height: auto;
         overflow: hidden;
         border-radius: 15px;
@@ -662,6 +672,57 @@ footer  p{
         display: flex;
         animation: slide 16s infinite;
     }
+    .contenedor1{
+        margin-left: 9em;
+        width: 54.5vmin;
+        height: auto;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 4px 4px 8px
+    }
+    .envoltorio1{
+        width: 100%;
+        display: flex;
+        animation: slide 16s infinite;
+    }
+    #sc9{
+        display: inline;
+        columns: 1;
+        width: 100%;
+        height: 1%;
+        border: solid red 2px;
+    }
+    #sc9 img{
+        width: 18em;
+        height: auto;
+        margin-left: 28%;
+        border: solid red 2px;
+    }
+    #sc9 .mm{ 
+        margin-left: 28%;
+        width: 18em;
+        height: auto;
+    }
+    #sc9 h1{
+        border: solid red 2px;
+        position: absolute;
+        left: 6em;
+    }
+    #sc9 p{
+
+        width: 100%;
+        height: 1%;
+        border: solid red 2px;
+    }
+    #sc10{
+        display: inline;
+        columns: 1;
+        width: 100%;
+        height: 1%;
+        border: solid red 2px;
+
+    }
+
 
 
     

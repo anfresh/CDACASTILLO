@@ -543,7 +543,7 @@ footer{
 }
 footer .nombres{
     display: grid;
-    border: solid red 2px;
+    
     text-align: start;
     width: 60em;
     height: 7em;
@@ -582,7 +582,7 @@ footer  p{
     #sc1{
    width: 101%;
    height: 342px;
-   border: solid red 2px;
+   
     }
     menu{
        
@@ -596,7 +596,7 @@ footer  p{
     }
     #eee{
         width: 99%;
-        border: solid red 2px;
+        
         position: relative;
        
     }
@@ -607,7 +607,7 @@ footer  p{
         position: relative;
         left: 1.5em;
         bottom: 12em;
-        border: solid red 2px;
+       
     }
     menu ul a li{
         font-size: 15px;
@@ -618,18 +618,18 @@ footer  p{
     }
     #sc2{
         columns: 1;
-        border: solid red 2px;
+       
         width: 101%;
         height: 66em;
     }
     .negro{
-        border: solid red 2px;
+        
         width: 200%;
     }
 
     #sc2 p{
         text-align: center;
-        border: solid red 2px;
+   
         padding: 29%;
     
         position: absolute;
@@ -642,7 +642,7 @@ footer  p{
         background-repeat: repeat;
         background-repeat: space 10px;
        columns: 1;
-        border: solid red 2px;
+    
         width: 200%;
         height: 110em; 
     }

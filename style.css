@@ -1,0 +1,674 @@
+@font-face {
+    font-family: supreme;
+    src: url(fonts/Supreme-Light.otf);
+}
+@font-face {
+    font-family: zina;
+    src: url(fonts/Zina-Regular.otf);
+}
+
+p{
+    font-family: supreme;
+}
+
+.menu1{
+    font-family: zina;
+}
+
+*{
+    margin: 0;
+    padding: 0 0% 0 0;
+    box-sizing: border-box;}
+#sc1{
+    height: 700px;
+    background-color: black;
+}
+#sc1 video{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#sc1{
+    filter: brightness(0.9)   grayscale(50%);    
+}
+#eee{
+    width: 100%;
+    height: 190px;
+    background-color: #1f2124;
+    filter: opacity(40%);
+    position: absolute;
+    bottom: 30em;
+}
+menu{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    align-items: center ;
+    margin-top: 0em;
+    position: relative;
+    z-index: 2;
+}
+menu img{
+    width: 85px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+   margin-left: 1em;
+   margin-right: 1em;
+} 
+menu ul{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: -9em;
+    justify-content: space-between;
+}
+menu .logo{
+    box-shadow: 2px 2px 10px;
+    color: black;
+    position: relative; 
+    bottom: 43em; 
+}
+menu ul a{
+    text-decoration: none;
+    color: #ffff;
+    transition: color 1s linear;
+    
+}
+menu ul a:hover {
+    color: #ee0101;
+    cursor: pointer;
+  }
+menu ul a li{
+    text-decoration: none;
+    list-style: none;
+}
+menu ul a li{
+    font-size: 19px;
+}
+.menu1{
+    position: relative;
+    bottom: 12em;
+    left: 18em;
+}
+#sc2{
+    display: flex;
+    height: 780px;
+    gap: 5em;
+    background-size: 100%;
+    position: relative;
+    z-index: 2;
+}
+#sc2 video{
+    margin-top: 9em;
+    background-color: black;
+    width: 800px;
+    height: 450px;  
+    margin-left: 5em;
+    border-radius: 2%;
+}
+#sc2 p{
+    text-align: center;
+    font-size: 20px;
+    height: 7em;
+    width: 40em;
+    margin-top: 16em;
+    color: black;
+}
+.negro{
+    background-color: black;
+    height: 60px;
+}
+#sc3{
+    height: 900px;
+    background-image: url(img/rojooo.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    columns: 2;
+}
+.lol p{
+    font-size: 16px;
+}
+.contenedor{
+    margin-left: 19em;
+    width: 33.8vmin;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px
+}
+.envoltorio{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+.contenedor1{
+    margin-left: 19em;
+    width:  33.8vmin;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px
+}
+.envoltorio1{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
+#sc3 div{
+    text-align: center;
+}
+#sc3 h2,p{
+   color: #ffff;
+   text-align: center;
+}
+#sc3 p{
+    margin-top: 4em ;
+    margin-bottom: 3em;
+    height: 7em;
+    line-height: 22px;
+}
+#sc3 a{
+    
+    color: rgb(0, 0, 0);
+    padding: 0.5em 2em  0.5em 2em;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 50px;
+  
+}
+#sc3 img{
+     width: 20em;
+     margin-top: 4em;
+     box-shadow: 10px 10px 20px;
+}
+#sc3 .lol a{
+    transition: color 1s linear;
+}
+
+#sc3 .lol a:hover {
+    color: #db0025;
+    cursor: pointer;
+  }
+#sc4{
+    background-image: url(video/hojas\ rojas\ .jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    gap: 3em;
+    background-size: 100%;
+    border: solid black 2px;
+}
+#sc4 img{
+    margin-top: 4em;
+    border: solid black 2px;
+    box-shadow: 4px 4px 8px;
+    width: 500px;
+    height: 450px;  
+    margin-left: 15em;
+    border-radius: 7%;
+}
+#sc4 h1{
+    font-size: 20px;
+    margin-top: 3em;
+    color: white;
+    position: absolute;
+    left: 44em;
+}
+#sc4 p{
+   font-size: 20px;
+   width: 40em ;
+   height: 20em ;
+   line-height: 1.7;
+   align-items: start;
+   text-align: left;
+   margin-top: 6em;
+   margin-right: 2em ;
+   color: white;
+}
+#sc5{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 800px;
+    columns: 2;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc5 img{
+    margin-top: 5em;
+    background-color: darkred;
+    width: 600px;
+    height: 550px;  
+    margin-right:8em ;
+    margin-left: 11em;
+    border-radius: 7%;
+    border: solid rgb(0, 0, 0) 2px;
+}
+
+#sc5 h1{
+    font-size: 25px;
+    margin-top: 3em;
+    color: black;
+    position: absolute;
+    right: 50em;
+}
+#sc5 p{
+    font-size: 20px;
+    width: 45em ;
+    height: 25em ;
+    line-height: 1.8;
+    text-align: start;
+    margin-top: 8em;
+    color: black;
+}
+#sc6{
+    background-image: url(video/gotas\ rojas\ .jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 730px;
+    columns: 2;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc6 img{
+    margin-top: 5em;
+    background-color: darkred;
+    width: 600px;
+    height: 550px;  
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 7%;
+    box-shadow: 4px 4px 8px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc6 h1{
+   font-size: 25px;
+   margin-top: 3em;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   right: 12em;
+}
+#sc6 p{
+    font-size: 20px;
+    width: 49em ;
+    height: 25em ;
+    line-height: 1.8;
+    position: absolute;
+    left: 35em;
+   align-items: start;
+   text-align: left;
+   margin-top: 8em;
+   margin-right: 2em ;
+   color: rgb(255, 255, 255);
+}
+.ud{
+    margin-top: 3em;
+    width: 58%;
+    text-align: center;
+    margin-left: 6em;
+}
+.ud h1{
+    font-size: 40px;
+    position: relative; 
+    top: 2em;
+}
+#sc7{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 550px;
+    gap: 3em;
+    background-size: 100%;
+}
+#sc7 .ubicacion{
+    margin-top:3em;
+    border-radius: 7%;
+    width: 550px;
+    height: 450px;  
+    margin-right: 10em;
+    border: solid rgb(0, 0, 0) 2px ;
+    box-shadow: 4px 4px 8px;
+}
+#sc7 p{
+   font-size: 20px;
+   width: 40em ;
+   height: 20em ;
+   line-height: 1.4;
+   text-align: center;
+   margin-top: 7em;
+   margin-right: 6em ;
+   margin-left: 2em;
+   color: black;
+}
+#sc8{
+    background-image: url(video/ubicacion.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    height: 800px;
+}
+#sc8 iframe{
+    margin-top: 3em;
+    width: 1430px;
+}
+#sc9{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 550px;
+    gap: 3em;
+}
+#sc9 .mm{
+    margin-top: 4em;
+    background-color: darkred;
+    width: 300px;
+    height: 450px;  
+    margin-right: 5em;
+    border-radius: 7%;
+}
+#sc9 img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 4em;
+    background-color: darkred;
+    width: 300px;
+    height: 450px;  
+    margin-right: 5em;
+    border-radius: 7%;
+}
+#sc9 h1{
+   font-size: 40px;
+   margin-top: 3em;
+   color: black;
+   position: absolute;
+   left: 11.5em;
+}
+#sc9 p{
+   font-size: 20px;
+   width: 40em ;
+   height: 20em ;
+   line-height: 1.7;
+   text-align: center;
+   margin-top: 11em;
+   margin-right: 7em ;
+   color: black;
+}
+#sc10{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    columns: 2;
+    background-image: url(video/HOJAS.jpg);
+    background-size: 100%;
+}
+#sc10 img{
+    margin-top: 5em;
+    background-color: darkred;
+    width: 500px;
+    height: 450px;  
+    margin-right:5em ;
+    margin-left: 7em;
+    border-radius: 7%;
+    box-shadow: 2px 2px 10px;
+}
+#sc10 p{
+    text-align: center;
+    font-size: 20px;
+    width: 50em ;
+    height: 20em ;
+    line-height: 1.8;
+    margin-top: 11em;
+    color: rgb(255, 255, 255);
+}
+#sc11{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    columns: 1;
+}
+#sc11 .tres{
+    box-shadow: 2px 2px 10px;
+    background-color: darkred;
+    width: 500px;
+    height: 350px;  
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 5em;
+    border-radius: 7%;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc11 .dos{
+    margin-bottom: 5em;
+    margin-top: 3em;
+    background-color: darkred;
+    width: 500px;
+    height: 350px;  
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 7%;
+    box-shadow: 2px 2px 10px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc11 .uno{
+    margin-bottom: 5em;
+    margin-top: 3em;
+    background-color: darkred;
+    width: 500px;
+    height: 350px;  
+    margin-left: 2em;
+    margin-right: 2em;
+    border-radius: 7%;
+    box-shadow: 2px 2px 10px;
+    border: solid rgb(0, 0, 0) 2px;
+}
+#sc11 p{
+   font-size: 25px;
+   width: 60em ;
+   height: 30em ;
+   line-height: 1.8;
+   align-items: start;
+   text-align: center;
+   margin-top: 6em;
+   color: black;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    background-color: black; 
+}
+footer .nombres{
+    display: grid;
+    border: solid red 2px;
+    text-align: start;
+    width: 60em;
+    height: 7em;
+}
+footer .nombres li{
+  
+    color: #ffff;
+}
+footer .lo{
+    width: 90px;
+    height: auto;
+    margin-left: 2em;
+}
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 2em;
+    filter: opacity(70%);
+}
+footer div img{
+    width: 35px;
+    filter: invert(100%);
+    margin-right: 1em;
+    margin-left: 2em;
+}
+footer  p{
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    #sc1{
+   width: 101%;
+   height: 342px;
+   border: solid red 2px;
+    }
+    menu{
+       
+        width: 100%;
+        position: absolute;
+        bottom: 19em;
+    }
+    menu ul{
+        position: relative;
+        right: 18em;
+    }
+    #eee{
+        width: 99%;
+        border: solid red 2px;
+        position: relative;
+       
+    }
+    .menu1{
+        font-size: 22px;
+        
+        text-align: center;
+        position: relative;
+        left: 1.5em;
+        bottom: 12em;
+        border: solid red 2px;
+    }
+    menu ul a li{
+        font-size: 15px;
+        margin-left: 15px;
+        justify-content: space-evenly;
+        width: 9em;
+        
+    }
+    #sc2{
+        columns: 1;
+        border: solid red 2px;
+        width: 101%;
+        height: 66em;
+    }
+    .negro{
+        border: solid red 2px;
+        width: 200%;
+    }
+
+    #sc2 p{
+        text-align: center;
+        border: solid red 2px;
+        padding: 29%;
+    
+        position: absolute;
+        left: -5em;
+        top: 10em;
+
+    }
+    #sc3{
+        background-size: 100%;
+        background-repeat: repeat;
+        background-repeat: space 10px;
+       columns: 1;
+        border: solid red 2px;
+        width: 200%;
+        height: 110em; 
+    }
+    .lol{
+        margin-top: 5em;
+    }
+    .contenedor{
+        margin-left: 26em;
+        width: 55.5vmin;
+        height: auto;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 4px 4px 8px
+    }
+    .envoltorio{
+        width: 100%;
+        display: flex;
+        animation: slide 16s infinite;
+    }
+
+
+    
+}
+
+
+
+
+
+
